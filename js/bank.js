@@ -22,5 +22,6 @@ const email = emailField.value;
     }
     else{
         console.log('invalid user')
+        window.location.href = 'banking.html';
     }
 })
