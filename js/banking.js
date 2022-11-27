@@ -17,4 +17,6 @@ const newDepositAmount = parseFloat(newDepositAmountText);
     const previousBalanceTotal = parseFloat(balanceTotalText);
     const newBalanceTotal = previousBalanceTotal + newDepositAmount;
     balanceTotal.innerText = newBalanceTotal;
+     // clear the deposit input field
+     depositInput.value = '';
 })
