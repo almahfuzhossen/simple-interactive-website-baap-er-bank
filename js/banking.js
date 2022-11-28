@@ -43,4 +43,6 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
        // step-6
      const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
      balanceTotalElement.innerText = newBalanceTotal;
+      // step-7
+    withdrawField.value = '';
 })
